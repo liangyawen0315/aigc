@@ -1,0 +1,10 @@
+/* pages/discover/discover.wxss */
+
+.news1-container swiper{
+  width: 100%;
+  height: calc(100vw*9/16);
+  margin-top: 1rpx;
+}  
+.news1-container swiper image{
+  width: 100%;
+}

@@ -1,0 +1,30 @@
+<!--pages/discover/discover.wxml-->
+
+
+<view class="news1-container">
+ 
+
+  <swiper 
+  indicator-dots="{{indicatordots}}" 
+  autoplay="{{autoplay}}" 
+  interval="{{interval}}"
+  >     
+       
+    <swiper-item>
+      <image class="logo" src="../../img/discover-scene/snow.jpg" mode="widthFix"></image>                  
+    </swiper-item>
+
+    <swiper-item>
+      <image class="logo" src="../../img/discover-scene/greece.jpg" mode="widthFix"></image>  
+    </swiper-item>
+ 
+    <swiper-item>
+      <image class="logo" src="../../img/discover-scene/swizze.jpg" mode="widthFix"></image>  
+    </swiper-item>
+
+        
+  </swiper>
+
+</view>
+
+<text>探索其他用户的旅行，为您的下一次旅行提供灵感！</text>
