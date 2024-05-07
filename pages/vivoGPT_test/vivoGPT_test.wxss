@@ -1,0 +1,10 @@
+/* pages/index/index.wxss */
+button {
+  margin-top: 10px;
+  background-color: #00eaff;
+}
+#question-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

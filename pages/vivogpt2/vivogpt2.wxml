@@ -1,0 +1,18 @@
+<view class="container">  
+  <view class="input-group">  
+    <input type="number" placeholder="请输入年龄" bindinput="bindAgeInput" />  
+  </view>  
+  <view class="input-group">  
+    <input placeholder="请输入性格" bindinput="bindCharacterInput" />  
+  </view>  
+  <view class="input-group">  
+    <input placeholder="请输入目的地" bindinput="bindDestinationInput" />  
+  </view>  
+  <view class="input-group">  
+    <input type="number" placeholder="请输入天数" bindinput="bindDaysInput" />  
+  </view>  
+  <button bindtap="submitForm">提交</button>  
+  <view class="result-container">  
+    <text>{{result}}</text>  
+  </view>  
+</view>

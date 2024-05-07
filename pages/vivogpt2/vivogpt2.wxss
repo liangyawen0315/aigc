@@ -1,0 +1,13 @@
+.container {  
+  padding: 20rpx;  
+}  
+  
+.input-group {  
+  margin-bottom: 20rpx;  
+}  
+  
+.result-container {  
+  margin-top: 20rpx;  
+  border: 1px solid #ccc;  
+  padding: 10rpx;  
+}

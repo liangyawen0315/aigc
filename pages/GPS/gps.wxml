@@ -1,0 +1,13 @@
+<!-- index.wxml -->  
+<view class="container">  
+  <view class="input-group">  
+    <input class="input" type="text" placeholder="请输入关键词" bindinput="bindKeywordsInput" />  
+  </view>  
+  <view class="input-group">  
+    <input class="input" type="text" placeholder="请输入城市" bindinput="bindCityInput" />  
+  </view>  
+  <button bindtap="submitForm">提交</button>  
+  <view class="result">  
+    <text>{{result}}</text>  
+  </view>  
+</view>

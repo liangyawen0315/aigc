@@ -1,33 +1,48 @@
 {
   "pages": [
-    
     "pages/home/home",
     "pages/discover/discover",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/vivoGPT_test/vivoGPT_test",
+    "pages/vivoGPT2.0_test/vivoGPT2.0_test",
+    "pages/vivogpt2/vivogpt2",
+    "pages/GPS/gps"
   ],
-  "tabBar":{
-    "backgroundColor": "#FFFFFF",  
-    "borderStyle": "black",  
-    "position": "bottom", 
-    "custom": false,  
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "position": "bottom",
+    "custom": false,
     "color": "#777",
     "selectedColor": "#1cb9ce",
-    "list":[
+    "list": [
       {
         "pagePath": "pages/home/home",
-        "text":"首页",
+        "text": "首页",
         "iconPath": "img/barimg/home-img.png",
         "selectedIconPath": "img/barimg/home-img.png"
       },
       {
         "pagePath": "pages/discover/discover",
-        "text":"发现",
+        "text": "发现",
         "iconPath": "img/barimg/discover-img.png",
         "selectedIconPath": "img/barimg/discover-img.png"
       },
       {
         "pagePath": "pages/index/index",
-        "text":"个人",
+        "text": "个人",
+        "iconPath": "img/barimg/profile-img.png",
+        "selectedIconPath": "img/barimg/profile-img.png"
+      },
+      {
+        "pagePath": "pages/vivoGPT_test/vivoGPT_test",
+        "text": "测试端口",
+        "iconPath": "img/barimg/profile-img.png",
+        "selectedIconPath": "img/barimg/profile-img.png"
+      },
+      {
+        "pagePath": "pages/GPS/gps",
+        "text": "测试端口3",
         "iconPath": "img/barimg/profile-img.png",
         "selectedIconPath": "img/barimg/profile-img.png"
       }

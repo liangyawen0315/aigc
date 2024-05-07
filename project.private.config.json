@@ -3,6 +3,7 @@
   "projectname": "aigc-trip1",
   "setting": {
     "compileHotReLoad": true,
-    "bigPackageSizeSupport": true
+    "bigPackageSizeSupport": true,
+    "urlCheck": false
   }
 }
