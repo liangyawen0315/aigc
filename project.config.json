@@ -19,12 +19,16 @@
       "outputPath": ""
     },
     "uglifyFileName": true,
-    "skylineRenderEnable": false
+    "skylineRenderEnable": false,
+    "ignoreUploadUnusedFiles": true,
+    "useCompilerPlugins": false
   },
   "condition": {},
   "editorSetting": {
     "tabIndent": "auto",
     "tabSize": 2
   },
-  "appid": "wx8c43a2d314b97d0f"
+  "appid": "wx8c43a2d314b97d0f",
+  "miniprogramRoot": "",
+  "srcMiniprogramRoot": "miniprogram/"
 }
