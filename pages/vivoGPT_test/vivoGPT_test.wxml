@@ -1,6 +1,6 @@
 <view class="container">  
     <input type="text" placeholder="请输入旅行需求" bindinput="inputChange" value="{{question}}" />  
     <button bindtap="submitQuestion">提交需求</button>
-    <text>这是蓝心大模型的answer11：</text>    
+    <text>这是蓝心大模型的answer：</text>    
     <text>{{answer}}</text>  
 </view>
